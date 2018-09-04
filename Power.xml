@@ -1,0 +1,71 @@
+<ROOT>
+
+    <TaskList Format="LTE_FDD">
+        <Task Band="1" DlChannel="25" Bandwidth="5" RbNumber="1" RbPosition="LOW"/>
+        <Task Band="1" DlChannel="50" Bandwidth="10" RbNumber="1" RbPosition="LOW"/>
+        <Task Band="1" DlChannel="75" Bandwidth="15" RbNumber="1" RbPosition="LOW"/>
+        <Task Band="1" DlChannel="100" Bandwidth="20" RbNumber="1" RbPosition="LOW"/>
+
+        <Task Band="1" DlChannel="300" Bandwidth="5" RbNumber="1" RbPosition="LOW"/>
+        <Task Band="1" DlChannel="300" Bandwidth="10" RbNumber="1" RbPosition="LOW"/>
+        <Task Band="1" DlChannel="300" Bandwidth="15" RbNumber="1" RbPosition="LOW"/>
+        <Task Band="1" DlChannel="300" Bandwidth="20" RbNumber="1" RbPosition="LOW"/>
+
+        <Task Band="1" DlChannel="575" Bandwidth="5" RbNumber="1" RbPosition="HIGH"/>
+        <Task Band="1" DlChannel="550" Bandwidth="10" RbNumber="1" RbPosition="HIGH"/>
+        <Task Band="1" DlChannel="525" Bandwidth="15" RbNumber="1" RbPosition="HIGH"/>
+        <Task Band="1" DlChannel="500" Bandwidth="20" RbNumber="1" RbPosition="HIGH"/>
+
+        <Task Band="3" DlChannel="1225" Bandwidth="5" RbNumber="1" RbPosition="LOW"/>
+        <Task Band="3" DlChannel="1575" Bandwidth="5" RbNumber="1" RbPosition="LOW"/>
+        <Task Band="3" DlChannel="1925" Bandwidth="5" RbNumber="1" RbPosition="HIGH"/>
+
+        <Task Band="3" DlChannel="1225" Bandwidth="5" RbNumber="1" RbPosition="LOW"/>
+        <Task Band="3" DlChannel="1575" Bandwidth="5" RbNumber="1" RbPosition="LOW"/>
+        <Task Band="3" DlChannel="1925" Bandwidth="5" RbNumber="1" RbPosition="HIGH"/>
+
+        <Task Band="3" DlChannel="1225" Bandwidth="5" RbNumber="1" RbPosition="LOW"/>
+        <Task Band="3" DlChannel="1575" Bandwidth="5" RbNumber="1" RbPosition="LOW"/>
+        <Task Band="3" DlChannel="1925" Bandwidth="5" RbNumber="1" RbPosition="HIGH"/>
+
+        <Task Band="3" DlChannel="1225" Bandwidth="5" RbNumber="1" RbPosition="LOW"/>
+        <Task Band="3" DlChannel="1575" Bandwidth="5" RbNumber="1" RbPosition="LOW"/>
+        <Task Band="3" DlChannel="1925" Bandwidth="5" RbNumber="1" RbPosition="HIGH"/>
+
+    </TaskList>
+
+
+    <TaskList Format="WCDMA">
+        <Task Band="1" DlChannel="10562"/>
+        <Task Band="1" DlChannel="10700"/>
+        <Task Band="1" DlChannel="10838"/>
+
+        <Task Band="5" DlChannel="1007"/>
+        <Task Band="5" DlChannel="4407"/>
+        <Task Band="5" DlChannel="4458"/>
+
+        <Task Band="8" DlChannel="2937"/>
+        <Task Band="8" DlChannel="3012"/>
+        <Task Band="8" DlChannel="3088"/>
+    </TaskList>
+
+    <TaskList Format="GSM">
+
+        <Task Band="DCS1800" DlChannel="512"/>
+        <Task Band="DCS1800" DlChannel="698"/>
+        <Task Band="DCS1800" DlChannel="885"/>
+
+        <Task Band="GSM850" DlChannel="128"/>
+        <Task Band="GSM850" DlChannel="190"/>
+        <Task Band="GSM850" DlChannel="251"/>
+
+        <Task Band="GSM900" DlChannel="975"/>
+        <Task Band="GSM900" DlChannel="37"/>
+        <Task Band="GSM900" DlChannel="124"/>
+
+        <Task Band="PCS1900" DlChannel="512"/>
+        <Task Band="PCS1900" DlChannel="661"/>
+        <Task Band="PCS1900" DlChannel="810"/>
+    </TaskList>
+
+</ROOT>
